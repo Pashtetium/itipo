@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="@string/UserSettings"
+        android:summary="@string/custom"
+        android:defaultValue="false"/>
+
+    <SwitchPreference
+        android:key="@string/Theme"
+        android:title="@string/PickTheme"
+        android:defaultValue="false"
+        android:summaryOn="@string/Dark"
+        android:summaryOff="@string/Light"
+        android:dependency="@string/UserSettings"/>
+
+        <EditTextPreference
+            android:key="@string/Size"
+            android:title="@string/TextSize"
+            android:summary="@string/newTextSize"
+            android:defaultValue="14"
+            android:dialogTitle="@string/dialogTitleSize"
+            android:dependency="@string/UserSettings"/>
+
+        <ListPreference
+            android:key="@string/style"
+            android:title="@string/Font"
+            android:summary="@string/newTextFont"
+            android:defaultValue="Обычный"
+            android:entries="@array/text_style"
+            android:entryValues="@array/text_style"
+            android:dialogTitle="@string/PickFont"
+            android:dependency="@string/UserSettings"/>
+
+        <ListPreference
+            android:key="@string/Color"
+            android:title="@string/TextColor"
+            android:summary="@string/newTextColor"
+            android:defaultValue="Черный"
+            android:entries="@array/text_color"
+            android:entryValues="@array/text_color"
+            android:dialogTitle="@string/PickColor"
+            android:dependency="@string/UserSettings"/>
+
+</PreferenceScreen>

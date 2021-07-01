@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:scrollbarStyle="insideOverlay">
+
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="30"
+        android:progress="15" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/seekBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:isScrollContainer="true"
+                android:padding="5sp"
+                android:paddingBottom="10sp"
+                android:text="@string/art_3p1"
+                android:textAlignment="gravity"
+                android:textIsSelectable="true"
+                android:textSize="14sp"
+                android:typeface="serif" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/a31"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:isScrollContainer="true"
+                android:padding="5sp"
+                android:paddingBottom="10sp"
+                android:text="@string/art_3p2"
+                android:textAlignment="gravity"
+                android:textIsSelectable="true"
+                android:textSize="15sp"
+                android:typeface="serif" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/a32"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:isScrollContainer="true"
+                android:padding="5sp"
+                android:paddingBottom="10sp"
+                android:text="@string/art_3p3"
+                android:textAlignment="gravity"
+                android:textIsSelectable="true"
+                android:textSize="15sp"
+                android:typeface="serif" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

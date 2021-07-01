@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".help">
+            <intent-filter>
+                <action android:name=".help" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Settings">
+            <intent-filter>
+                <action android:name=".Settings" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".statistics"
+            android:label="Статистика">
+            <intent-filter>
+                <action android:name=".statistics" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".result"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Результат" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".StartingScreenActivity">
+            <intent-filter>
+                <action android:name=".Tests" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Theory">
+            <intent-filter>
+                <action android:name=".Theory" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Article1">
+            <intent-filter>
+                <action android:name=".Article1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Article2">
+            <intent-filter>
+                <action android:name=".Article2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Article3">
+            <intent-filter>
+                <action android:name=".Article3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Article4">
+            <intent-filter>
+                <action android:name=".Article4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Article5">
+            <intent-filter>
+                <action android:name=".Article5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Article6">
+            <intent-filter>
+                <action android:name=".Article6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Article7">
+            <intent-filter>
+                <action android:name=".Article7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Article8">
+            <intent-filter>
+                <action android:name=".Article8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Article9">
+            <intent-filter>
+                <action android:name=".Article9" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Article10">
+            <intent-filter>
+                <action android:name=".Article10" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MyNewIntentService"
+            android:exported="false"></service>
+    </application>
+
+</manifest>

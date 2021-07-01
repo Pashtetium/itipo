@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Size">Размер</string>
+    <string name="style">Стиль</string>
+    <string name="Color">Цвет</string>
+    <string name="Theme">Тема</string>
+    <string name="UserSettings">Настройки</string>
+
+    <string name="TextSize">Размер шрифта</string>
+    <string name="newTextSize">Устананавливает размер шрифта на всех лекциях</string>
+    <string name="dialogTitleSize">Введите размер шрифта (от 10 до 30). НЕ ВВОДИТЕ БУКВЫ!</string>
+
+    <string name="Dark">Dark</string>
+    <string name="Light">Light</string>
+    <string name="PickTheme">Выберите тему</string>
+
+    <string name="Font">Стиль шрифта</string>
+    <string name="newTextFont">Устанавливает стиль шрифта</string>
+    <string name="PickFont">Выберите стиль шрифта</string>
+    
+    <string name="custom">Пользовательские настройки</string>
+
+    <string name="TextColor">Цвет шрифта</string>
+    <string name="newTextColor">Устанавливает цвет шрифта</string>
+    <string name="PickColor">Выберите цвет шрифта</string>
+</resources>
